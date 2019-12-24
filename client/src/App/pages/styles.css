@@ -1,0 +1,220 @@
+*:not(i) {
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 400;
+}
+
+body {
+    margin: 0;
+    background: #111111;
+}
+
+.App h1 {
+    color: #fff;
+}
+
+.App .profile-img img {
+    margin: 0 auto;
+    border-radius: 100px;
+    max-width: 150px;
+    height: auto;
+    border: 3px solid #444;
+}
+
+.App h1 span {
+    font-style: italic;
+    font-size: 26px;
+}
+
+.App {
+    display: grid;
+    align-content: center;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+}
+
+div a {
+    margin: 5px;
+}
+
+/* BTNS */
+div.off .login-btn {
+    margin-top: 22px;
+    background: #1da1f2;
+    color: #fff;
+    height: 40px;
+    width: 125px;
+    border-radius: 5px;
+    display: inline-grid;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 0 15px rgba(29, 161, 242, 0.15);
+    transition: .15s;
+}
+
+div.off .login-btn:hover {
+    box-shadow: 0 0 30px rgba(29, 161, 242, 0.3);
+    transition: .15s;
+}
+
+div.off .logout-btn {
+    margin-top: 22px;
+    background: #333;
+    color: #111;
+    height: 40px;
+    width: 125px;
+    border-radius: 5px;
+    display: inline-grid;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    pointer-events: none;
+}
+
+/* BTNS II */
+
+div.on .logout-btn {
+    margin-top: 22px;
+    background: #D90000;
+    color: #fff;
+    height: 40px;
+    width: 125px;
+    border-radius: 5px;
+    display: inline-grid;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 0 15px rgba(217, 0, 0, 0.15);
+    transition: .15s;
+}
+
+div.on .logout-btn:hover {
+    box-shadow: 0 0 30px rgba(217, 0, 0, 0.3);
+    transition: .15s;
+}
+
+div.on .login-btn {
+    margin-top: 22px;
+    background: #333;
+    color: #111;
+    height: 40px;
+    width: 125px;
+    border-radius: 5px;
+    display: inline-grid;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    pointer-events: none;
+}
+
+/* TWITTER LOGO */
+.twitter-logo {
+    margin: 0 auto;
+    max-width: 100px;
+}
+
+/* TWEET BOX ON */
+
+.tweet-box-on {
+    display: block;
+    margin-top: 20px;
+}
+
+.tweet-box-on textarea {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    height: 100px;
+    resize: none;
+    padding: 5px;
+    color: #000;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.tweet-box-on textarea::placeholder {
+    color: #aaa;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 600;
+}
+
+.tweet-box-on a {
+    display: inline-grid;
+    align-content: center;
+    background: #1da1f2;
+    border: none;
+    width: 320px;
+    height: 40px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: .15s;
+    text-decoration: none;
+}
+
+.tweet-box-on a:hover {
+    box-shadow: 0 0 30px rgba(29, 161, 242, 0.3);
+    transition: .15s;
+    cursor: pointer;
+}
+
+/* TWEET BOX OFF */
+
+.tweet-box-off {
+    display: block;
+    margin-top: 20px;
+}
+
+.tweet-box-off textarea {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    height: 100px;
+    resize: none;
+    padding: 5px;
+    color: #000;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    pointer-events: none;
+    background: #333;
+}
+
+.tweet-box-off textarea::placeholder {
+    color: #111;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 600;
+}
+
+.tweet-box-off a {
+    display: inline-grid;
+    align-content: center;
+    background: #333;
+    border: none;
+    width: 320px;
+    height: 40px;
+    color: #111;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: .15s;
+    pointer-events: none;
+    text-decoration: none;
+}
